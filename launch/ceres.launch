@@ -1,0 +1,5 @@
+<launch>
+        <include file="$(find volksbot_driver)/launch/volksbot.launch"/>
+        <include file="$(find sick_tim)/launch/sick_tim551_2050001.launch"/>
+        <include file="$(find pico_flexx_driver)/launch/pico_flexx_driver.launch"/>
+</launch>
